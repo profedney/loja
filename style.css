@@ -1,0 +1,71 @@
+img, embed, object, video{
+    width: 100%;
+    align-items: center;
+}
+nav, a, button {
+    min-width: 60px;
+    min-height: 60px;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.caixa{
+    background-color: antiquewhite;
+    width: 100%;
+    
+  
+   
+}
+
+
+
+@media screen and (min-width:500px) {
+    .conteiner{
+        background-color: cornflowerblue;
+    }
+    .caixa{
+        width: 50%;
+    }
+    .cx1{
+        width: 100%;
+    }
+    .cx6{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (min-width:800px){
+    .conteiner{
+        background-color: deeppink;
+    }
+    .cx2{
+        width: 100%;
+    }
+    .cx3{
+        width: 33%;
+
+    }
+    .cx4{
+        width: 33%;
+
+    }
+    .cx5{
+        width: 33%;
+
+    }
+   
+    
+}
